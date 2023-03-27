@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* site-header */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/* .site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding-left: 0;
+}
+.nav-item {
+    margin-right: 32px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+    /* margin: 0; */
+}
+
+/* .nav-ul:first-child{
+    margin-left: 0;
+} */
+
+
+
+
+.nav-item a {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    text-decoration: none;
+}
+
+.site-btn {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #DE2E54;;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+/* main  */
+.hero {
+    background: #0EB4C1;
+    padding-top: 28px;
+    padding-bottom: 1px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-div h2,
+.hero-div p {
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 19px;
+}
+
+.hero-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 33px;
+}
+
+
+/* Services style */
+
+.services {
+    background-color: #FFFFFF;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.services-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services-items {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: left; */
+}
+
+.services-ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.site-buttun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CTA style */
+
+.cta {
+    background-color: #0EB4C1;
+}
+
+.cta-div {
+    padding-top: 80px ;
+    padding-bottom: 120px;
+}
+
+
+.cta-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.cta-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.cta-items {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+    margin-right: 15px;
+    /* margin-right: 15px; */
+    /* padding: 15px 25px; */
+}
+.btn-cta {
+    border-color: #FFFFFF;
+}
+
+.cta-btn {
+    background-color: #0EB4C1;
+    padding: 12px 24px;
+    color:#FFFFFF;
+    border-radius: 8px;
+    border: solid #FFFFFF;
+}
+/* footer style */ 
+.site-footer {
+    background-color: #222222;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+.footer-nav-item {
+    margin-right: 32px;
+}
+.footer-nav-item:last-child {
+    margin: 0;
+}
+
+.footer-nav-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
