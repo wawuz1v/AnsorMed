@@ -47,7 +47,6 @@ a {
 .logo-img  {
     border-radius: 50%;
     margin-right: 16px;
-
 }
 .logo-title {
     font-family: 'Open Sans';
@@ -56,7 +55,7 @@ a {
     font-size: 24px;
     line-height: 33px;
     color: #222;
-    transition: color 2s ease;
+    transition: color 0.5s ease;
 }
 .logo-title:hover {
     color: #DE2E54;
@@ -87,7 +86,7 @@ a {
     text-transform: uppercase;
     color: #222222;
     text-decoration: none;
-    transition: color 2s ease;
+    transition: color 0.5s ease;
 }
 
 .nav-item a:hover{
@@ -105,15 +104,23 @@ a {
     background-color: #DE2E54;;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 10px 22px;
     border-radius: 8px;
-    transition:  opacity 2s ease,
-    border 2s ease,
-    color 2s ease;
+    border: solid #DE2E54;
+    transition:  opacity 0.5s ease,
+    border 0.5s ease,
+    color 0.5s ease;
 }
 .hover:hover{
     /* box-sizing: border-box; */
-    border: solid #DE2E54;
+   
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     background-color: #FFFFFF;
     color: #DE2E54;
 }
@@ -155,12 +162,13 @@ a {
 }
 
 .site-hov {
-    transition: background 2s ease,
-    opacity 2s ease;
+    transition: background 0.5s ease,
+    opacity 0.5s ease;
 }
 
 .site-hov:hover{
     background: rgba(222, 46, 84, 0.8);
+    border: solid rgba(222, 46, 84, 0.8);
     opacity: 0.8;
 }
 
@@ -269,22 +277,25 @@ a {
     /* padding: 15px 25px; */
 }
 .btn-cta {
-    border-color: #FFFFFF;
+    /* border: solid #FFFFFF;     */
+
+    /* border-radius: 8px; */
+    /* border: solid #FFFFFF; */
 }
 
 .cta-btn {
     background-color: #0EB4C1;
-    padding: 12px 24px;
+    border: solid white;
+    padding: 10px 22px;
     color:#FFFFFF;
     border-radius: 8px;
-    border: solid #FFFFFF;
-    transition: background-color 3s ease,
-    border 3s ease;
+    transition: background-color 0.5s ease,
+    border 0.5s ease;
 }
 .cta-btn:hover {
     background-color: #DE2E54;
     color: #FFFFFF;
-    border: none;
+    border: solid #DE2E54;
 }
 /* footer style */ 
 .site-footer {
@@ -301,7 +312,7 @@ a {
 
 .logo-footer {
     color: #FFFFFF;
-    transition: color 2s ease;
+    transition: color 0.5s ease;
 }
 .logo-footer:hover {
     color: #DE2E54;
@@ -329,7 +340,7 @@ a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    transition: color 2s ease;
+    transition: color 0.5s ease;
 }
 .footer-nav-link:hover {
     color: #DE2E54;
